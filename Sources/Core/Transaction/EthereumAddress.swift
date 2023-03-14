@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import CryptoSwift
+import ArculusCryptoSwift
 
 public struct EthereumAddress {
 

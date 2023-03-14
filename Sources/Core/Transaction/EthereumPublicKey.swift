@@ -7,7 +7,7 @@
 
 import Foundation
 import secp256k1
-import CryptoSwift
+import ArculusCryptoSwift
 import BigInt
 
 public final class EthereumPublicKey {
