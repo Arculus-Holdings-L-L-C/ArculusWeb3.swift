@@ -32,7 +32,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/websocket-kit", .upToNextMajor(from: "2.6.1")),
 
         // PromiseKit dependency
-        .package(url: "https://github.com/seanarculus/ArculusPromiseKit.git", from: "6.22.2"),
+        .package(url: "https://github.com/Arculus-Holdings-L-L-C/ArculusPromiseKit.git", from: "6.22.0"),
 
         // Test dependencies
         .package(url: "https://github.com/Quick/Quick.git", from: "5.0.1"),
