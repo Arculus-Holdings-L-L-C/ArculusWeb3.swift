@@ -9,7 +9,7 @@ import Quick
 import Nimble
 @testable import Web3
 import BigInt
-import PromiseKit
+import ArculusPromiseKit
 import Foundation
 #if canImport(Web3ContractABI)
     @testable import Web3ContractABI

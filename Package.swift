@@ -32,7 +32,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/websocket-kit", .upToNextMajor(from: "2.6.1")),
 
         // PromiseKit dependency
-        .package(url: "https://github.com/mxcl/PromiseKit.git", from: "6.18.1"),
+        .package(url: "https://github.com/seanarculus/ArculusPromiseKit.git", from: "6.22.2"),
 
         // Test dependencies
         .package(url: "https://github.com/Quick/Quick.git", from: "5.0.1"),
@@ -55,7 +55,7 @@ let package = Package(
             dependencies: [
                 .target(name: "Web3"),
                 .target(name: "Web3ContractABI"),
-                .product(name: "PromiseKit", package: "PromiseKit"),
+                .product(name: "ArculusPromiseKit", package: "ArculusPromiseKit"),
             ],
             path: "Sources",
             sources: ["PromiseKit"]),

@@ -8,7 +8,7 @@
 #if canImport(Web3ContractABI)
 
 import Web3ContractABI
-import PromiseKit
+import ArculusPromiseKit
 import Collections
 
 #if !Web3CocoaPods

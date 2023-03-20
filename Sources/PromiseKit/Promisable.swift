@@ -5,7 +5,7 @@
 //  Created by Koray Koska on 22.06.18.
 //
 
-import PromiseKit
+import ArculusPromiseKit
 #if !Web3CocoaPods
     import Web3
 #endif

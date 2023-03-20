@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import PromiseKit
+import ArculusPromiseKit
 #if !Web3CocoaPods
     import Web3
 #endif
