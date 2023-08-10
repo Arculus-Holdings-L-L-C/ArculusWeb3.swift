@@ -27,7 +27,7 @@ let package = Package(
         // Core dependencies
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.3.0"),
         .package(url: "https://github.com/Arculus-Holdings-L-L-C/ArculusCryptoSwift.git", from: "1.6.1"),
-        .package(name: "ArculusSecp256k1", url: "https://github.com/Arculus-Holdings-L-L-C/ArculusSecp256k1.swift.git", from: "0.1.7"),
+        .package(name: "secp256k1", url: "https://github.com/BlockchainCommons/secp256k1-zkp.swift.git", from: "0.5.0"),
         .package(url: "https://github.com/apple/swift-collections.git", .upToNextMajor(from: "1.0.3")),
         .package(url: "https://github.com/vapor/websocket-kit", .upToNextMajor(from: "2.6.1")),
 
@@ -44,7 +44,7 @@ let package = Package(
             dependencies: [
                 .product(name: "BigInt", package: "BigInt"),
                 .product(name: "ArculusCryptoSwift", package: "ArculusCryptoSwift"),
-                .product(name: "ArculusSecp256k1", package: "ArculusSecp256k1"),
+                .product(name: "secp256k1", package: "secp256k1"),
                 .product(name: "Collections", package: "swift-collections"),
                 .product(name: "WebSocketKit", package: "websocket-kit"),
             ],
