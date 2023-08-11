@@ -28,7 +28,7 @@ let package = Package(
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.3.0"),
         .package(url: "https://github.com/Arculus-Holdings-L-L-C/ArculusCryptoSwift.git", from: "1.6.1"),
         .package(name: "secp256k1", url: "https://github.com/BlockchainCommons/secp256k1-zkp.swift.git", from: "0.5.0"),
-        .package(url: "https://github.com/apple/swift-collections.git", .upToNextMajor(from: "1.0.3")),
+        .package(url: "https://github.com/wolfmcnally/swift-collections", .upToNextMajor(from: "1.1.0")),
         .package(url: "https://github.com/vapor/websocket-kit", .upToNextMajor(from: "2.6.1")),
 
         // PromiseKit dependency
