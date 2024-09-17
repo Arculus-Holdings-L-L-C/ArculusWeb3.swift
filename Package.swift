@@ -27,7 +27,7 @@ let package = Package(
         // Core dependencies
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.3.0"),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.6.0"),
-        .package(name: "secp256k1", url: "https://github.com/Boilertalk/secp256k1.swift.git", from: "0.1.7"),
+        .package(name: "secp256k1", url: "https://github.com/BlockchainCommons/secp256k1-zkp.swift.git", from: "0.1.7"),
         .package(url: "https://github.com/Arculus-Holdings-L-L-C/swift-collections.git", branch: "arculus"),
         .package(url: "https://github.com/vapor/websocket-kit", .upToNextMajor(from: "2.6.1")),
 
